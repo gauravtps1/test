@@ -1,0 +1,27 @@
+1482914
+
+cid PTgsMhUAHhIrJxoIKwoUIyY
+PTgsMhUAHhIrJxoIKwoUIyY
+
+pss- d9rOrl/OmHWV3KrTOHL1BRm4
+
+
+
+/////////////////////////////////////////////////
+username = AQ4KNAAOJScXKxQuGTkKEw4
+clientId = AQ4KNAAOJScXKxQuGTkKEw4
+password = rJtqqf+kJVM435SFHOgWrH1B
+
+
+
+/////////////////////////////////
+
+mosquitto_pub -i -t channels/1482914/publish/T8I9IO457BAJE386 -p 1883 -l
+
+
+mosquitto_pub -h mqtt.thingspeak.com -p 1883 -u PTgsMhUAHhIrJxoIKwoUIyY -P UZ4NGHKJMKS9WR5E  -i PTgsMhUAHhIrJxoIKwoUIyY -t channels/399171/publish/5CW3G92PE4GDTOEV
+
+
+mosquitto_pub -h mqtt.thingspeak.com -p 1883 -u PTgsMhUAHhIrJxoIKwoUIyY -P UZ4NGHKJMKS9WR5E  -i PTgsMhUAHhIrJxoIKwoUIyY -t channels/399171/publish/fields/Temperature
+
+mosquitto_pub -t  channels/1483072/publish -i AQ4KNAAOJScXKxQuGTkKEw4 -u AQ4KNAAOJScXKxQuGTkKEw4 -P rJtqqf+kJVM435SFHOgWrH1B -h mqtt.thingspeak.com -p 1883 -l -d
